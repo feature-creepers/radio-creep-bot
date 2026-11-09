@@ -1,0 +1,15 @@
+discord.py>=2.6,<3
+python-dotenv>=1.0
+mutagen>=1.47
+rapidfuzz>=3.0
+uiautomation>=2.0.20
+winrt-runtime>=3.0
+winrt-Windows.Foundation>=3.0
+winrt-Windows.Foundation.Collections>=3.0
+winrt-Windows.Media.Control>=3.0
+winrt-Windows.Storage.Streams>=3.0
+# Diffusion directe par le bot (/diffusion) : voix Discord + capture de Voicemeeter B2
+PyNaCl>=1.5
+# davey 0.2.0 casse le chiffrement vocal (DAVE) avec discord.py 2.7.1 : son muet pour les auditeurs
+davey>=0.1.7,<0.2
+sounddevice>=0.5
